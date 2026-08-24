@@ -318,3 +318,20 @@ Reproduce evaluation metrics in:
 ```
 eval/binary_metaphor_eval.ipynb
 ```
+
+
+## Cite Us!
+
+If you find this repo useful, please cite us in your work as: 
+
+```bash
+@misc{leto2026discoveringconceptualmetaphorstopics,
+      title={Discovering Conceptual Metaphors Across Topics and Media Types}, 
+      author={Alexandria Leto and Rohan Das and Juan Vásquez and Abram Handler and Maria Leonor Pacheco},
+      year={2026},
+      eprint={2608.06652},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2608.06652}, 
+}
+```
