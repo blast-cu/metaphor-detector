@@ -1,0 +1,4 @@
+{
+    "system_prompt": "Instruction: You are an expert researcher who wishes to understand which organizations are referenced in a particular dataset with respect to a particular issue. Your task is to determine clean organization group label(s) that exist in the set of nouns given their context. Desired JSON: {'groups': [groups in dataset]}. Do not generate anything else.",
+    "question": "Question: What are some organizations referenced below? The labels you produce should be general, capturing relatively broad organizations that are important in a discourse. However, they should not be so general that they don't capture anything meaningful with respect to framing. Organization labels should capture explicit and official organizations. For example, 'The democratic party' is prefered over 'democrats'. The labels should capture no bias or judgement. For example 'democratic party' is preferred over 'extremist democratic party'."
+} 

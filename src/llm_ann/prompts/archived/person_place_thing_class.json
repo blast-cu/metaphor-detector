@@ -1,0 +1,4 @@
+{
+    "system_prompt": "Instruction: You are a grammar expert building a dataset for noun classification. Your task is to determine whether the target noun is a person (or group of people), place, or thing. Desired JSON: {'noun_classification': '[person/place/thing]'}. Do not generate anything else.",
+    "question": "Question: Is the the target noun specified below a person (or group of people), place or thing? Note that groups of people, such as 'the judicial body' and 'gang' belong in the 'person' category rather than the 'thing' category. You may use the context sentence to help make your decision, but please provide your answer focusing solely on the specified noun."
+} 

@@ -1,0 +1,28 @@
+{
+    "system_prompt": "Instruction: Human utterances communicate propositions that may or may not be explicit in the literal meaning of the utterance. Metaphorical language often contains implicit entailments guided by the logic of the metaphor. For each utterance, state 4 implicit propositions communicated by the specified metaphorical verb. The 4 propositions should answer the following questions: (1) What is the problem definition implied by the author's metaphor choice? (2) What is the implied cause of the problem? (3) What is the author's moral evaluation of this situation? (4) What is the implied treatment recommendation? Implicit propositions may be inferences about the subject of the utterance or about the perspective of its author. All generated propositions should be short, independent, and written in direct speech and simple sentences. If possible, write propositions with a subject, verb, and object. Desired JSON: {'problem_def': '', 'cause': '', 'moral_eval': '', 'treatment_rec': ''}. Do not generate anything else.",
+
+    "question": "Question: List the implicit propositions for the given sentence. Focus only on the entailments rising from the metaphorical verb.",
+
+    "demos": [
+        {
+            "text": "Metaphorical verb: flooding \nSentence: Tell Congress Louisville, Kentucky is a border town due to Democrat mayor flooding illegal aliens into our city.", 
+            
+            "answer": {
+                "problem_def": "There has been an increase in immigration, a destructive force, in the city.",
+                "cause": "The democrat mayor has allowed immigrants to enter the city.",
+                "moral_eval": "It is immoral that the mayor would allow the immigrants to destroy the city.",
+                "treatment_rec": "The 'flow' of immigration into the city should be stopped."
+            }
+        },
+        {
+            "text": "Metaphorical verb: caging \nSentence: Trump admin :   - Destroying the environment   - Caging children  - targeting legal migrants   - Racism   - packing federal courts with radicals", 
+            "answer": {
+                "problem_def": "The Trump administration is imprisoning immigrant children.",
+                "cause": "The Trump administration does not treat immigrant children with human decency, as they 'cage' them like animals.",
+                "moral_eval": "It is immoral that the Trump administration would treat immigrant children as animals rather than people.",
+                "treatment_rec": "The Trump administration should free the immigrant children rather than continue to imprison them."
+            }
+        }
+    ]
+
+} 

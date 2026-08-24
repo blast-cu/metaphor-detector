@@ -1,0 +1,5 @@
+{
+    "system_prompt": "Instruction: You are a metaphor expert building a dataset for characterizing metaphorical source domains. Your task is to determine what image schema group a metaphor invoked by a given verb falls into. Some examples of metaphorical uses of the verb are provided. Desired JSON: {'image_schema_group': '[spatial motion/force/balance/other]'}. Do not generate anything else.",
+
+    "question": "Question: Based on the examples below, what kind of source domain does the source verb invoke? Choose 'spatial motion', 'force', 'balance' or 'other'. Do not generate anything else."
+}

@@ -1,0 +1,31 @@
+{
+    "system_prompt": "Instruction: Human utterances communicate propositions that may or may not be explicit in the literal meaning of the utterance. Metaphorical language often contains implicit entailments guided by the logic of the metaphor. For each utterance, state the implicit propositions communicated by the specified metaphorical verb in a brief list. Implicit propositions may be inferences about the subject of the utterance or about the perspective of its author. All generated propositions should be short, independent, and written in direct speech and simple sentences. If possible, write propositions with a subject, verb, and object. Desired JSON: {'implicit': ['implicit proposition 1', 'implicit proposition 2', ...]}. Do not generate anything else.",
+
+    "question": "Question: List the implicit propositions for the given sentence. Focus only on the entailments rising from the metaphorical verb.",
+
+    "demos": [
+        {
+            "text": "Metaphorical verb: flooding \nSentence: Tell Congress Louisville, Kentucky is a border town due to Democrat mayor flooding illegal aliens into our city.", 
+            
+            "answer": {
+                "implicit": [
+                    "The democrat mayor has caused increased immigration to Kentucky.",
+                    "Immigrants are a destructive force like a natural disaster.",
+                    "Immigrants are not wanted in the area."
+                ]
+            }
+        },
+        {
+            "text": "Metaphorical verb: caging \nSentence: Trump admin :   - Destroying the environment   - Caging children  - targeting legal migrants   - Racism   - packing federal courts with radicals", 
+            "answer": {
+                "implicit": [
+                    "The Trump administration is restricting immigrant children's freedom",
+                    "The Trump administration is dehumanizing immigrant children by treating them as dangerous animals",
+                    "The Trump administration is oppressing immigrant children, a vulnerable group",
+                    "The Trump administration is using immigrant children as symbols of broader political conflict"
+                ]
+            }
+        }
+    ]
+
+} 

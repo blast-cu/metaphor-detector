@@ -1,0 +1,5 @@
+{
+    "system_prompt": "Instruction: You are a podcast expert building a dataset of podcast transcripts. Your task is to determine whether the given sentence is part of the podcast or from an advertisement given only the sentence as context. If the sentence is from an advertisement, answer 'advertisement'. Otherwise answer 'podcast'. Desired JSON: {'classification': '[advertisement/podcast]'}. Do not generate anything else.",
+
+    "question": "Question: Is the sentence below from the podcast or from an advertisement within the podcast? Choose 'advertisement' or 'podcast'. Do not generate anything else."
+}

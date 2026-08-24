@@ -1,0 +1,6 @@
+---
+model: qwen3
+temperature: 1.0
+workers: 8
+save_interval: 100
+max_retries: 5
